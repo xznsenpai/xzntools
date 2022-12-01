@@ -8,7 +8,7 @@ const fs = require("fs");
 
 /*****IG DOWNLOAD*****/
 let { igApi, getCookie } = require("insta-fetcher");
-let ig = new igApi("csrftoken=p1xJYwxzQ4o3RNfz1vOv6cjH8qdtX4yS; rur=NCG\05456787801042\0541701357651:01f75bcad2c7ecfa57304e2c69f307a773d02d4b5d0a57fae1f875474de40122bf841f0c; ds_user_id=56787801042; sessionid=56787801042%3ALHAVmb6SphB05p%3A26%3AAYf8XfZWDlJ8opNRJCYu3JDgG9bATpv6gSBXAtpr8Q");
+let ig = new igApi("Token"); //Untuk mendapatkan token seting di line 114
 
 function print (string) {
     return console.log(string);
@@ -111,7 +111,7 @@ switch (user_input) {
         } break
         case "6": {
             (async () => {
-            const session_id = await getCookie("its_me_yotsuya", "200403");
+            const session_id = await getCookie("username", "pasword"); //masukkan username instagram & pasword
             console.log("your Session");
             console.log(session_id);
             })();    
