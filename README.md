@@ -3,7 +3,7 @@
 </h1>
 </div>
 <p align="center">
-  Author <a href="https://youtube.com/channel/UCznrNUtKu0uDqt2AT8N93-Q">Xenzi Gan'z</a>
+  Author <a href="https://youtube.com/channel/UCznrNUtKu0uDqt2AT8N93-Q">Zainudin||Anggara</a>
 </p>
 <p align="center">
  
@@ -11,27 +11,17 @@
  <img src="https://github.com/xznsenpai/xzntools/blob/main/Screenshot_20221201_095442.jpg" width="640" title="Menu" alt="Menu">
 </p>
 
-### Hasil
- <img src="https://github.com/Xenzi-XN1/YT-Download/blob/main/Screenshot_20220806_170338.jpg" width="640" title="Menu" alt="Menu">
-</p>
-
-### Hasil Tersimpan
- <img src="https://github.com/Xenzi-XN1/YT-Download/blob/main/Screenshot_20220806_170506.jpg" width="640" title="Menu" alt="Menu">
-</p>
-
 #### Install script on Termux
 ```bash
 $ pkg update && pkg upgrade
-$ pkg install python
+$ pkg install nodejs
 $ pkg install git
-$ pip install requests
-$ pip install bs4
-$ git clone https://github.com/Xenzi-XN1/YT-Download
+$ git clone https://github.com/xznsenpai/xzntools
 ```
 #### Run script
 ```bash
-$ cd YT-Download
-$ pip install-r modul.txt
-$ python main.py
+$ cd xzntools
+$ npm install
+$ npm start
 ```
-* Note : Script YT-Download Untuk download video Yt >_<
+* Note : Script Belajar Nodejs >_<
