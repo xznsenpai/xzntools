@@ -22,6 +22,6 @@ $ git clone https://github.com/xznsenpai/xzntools
 ```bash
 $ cd xzntools
 $ npm install
-$ npm start
+$ node .
 ```
 * Note : Script Belajar Nodejs >_<
